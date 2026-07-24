@@ -35,7 +35,7 @@ main {
 }
 .card {
   border-radius: 20px;
-  background-color: var(--dark-purple);
+  padding: 12px;
 }
 .profile {
   display: flex;
@@ -44,4 +44,22 @@ main {
 .profilepic {
   height: 100%;
   border-radius: 80px;
+}
+.daniel {
+  background-color: var(--dark-purple);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position-x: 85%;
+}
+.jonathan {
+  background-color: var(--grey-500);
+}
+.jeanette {
+  background-color: white;
+}
+.patrick {
+  background-color: var(--dark-blue);
+}
+.kira {
+  background-color: white;
 }
