@@ -12,7 +12,27 @@
   font-size: 13px;
   font-family: "Barlow Semi Condensed", sans-serif;
 }
-
+main {
+  display: flex;
+  gap: 24px;
+  max-height: max-content;
+}
+.left {
+  flex: 2;
+}
+.left .upper {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+}
+.left .lower {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+}
+.right {
+  flex: 1;
+}
 .card {
   border-radius: 20px;
   background-color: var(--dark-purple);
