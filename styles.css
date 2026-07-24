@@ -12,3 +12,16 @@
   font-size: 13px;
   font-family: "Barlow Semi Condensed", sans-serif;
 }
+
+.card {
+  border-radius: 20px;
+  background-color: var(--dark-purple);
+}
+.profile {
+  display: flex;
+  justify-content: flex-start;
+}
+.profilepic {
+  height: 100%;
+  border-radius: 80px;
+}
