@@ -50,16 +50,21 @@ main {
   background-image: url(./images/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
   background-position-x: 85%;
+  color: var(--grey-100);
 }
 .jonathan {
   background-color: var(--grey-500);
+  color: var(--grey-100);
 }
 .jeanette {
   background-color: white;
+  color: var(--grey-500);
 }
 .patrick {
   background-color: var(--dark-blue);
+  color: var(--grey-200);
 }
 .kira {
   background-color: white;
+  color: var(--grey-500);
 }
