@@ -16,6 +16,22 @@ main {
   display: flex;
   gap: 24px;
   max-height: max-content;
+  padding: 50px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin: 0px;
+}
+h3 {
+  font-size: 1.2rem;
+}
+h4 {
+  font-size: 1rem;
+}
+p {
+  font-weight: 500;
+  font-size: 1rem;
 }
 .left {
   flex: 2;
@@ -35,7 +51,7 @@ main {
 }
 .card {
   border-radius: 20px;
-  padding: 12px;
+  padding: 25px;
 }
 .profileusername {
   display: flex;
@@ -45,6 +61,7 @@ main {
 .profileusername h3,
 .profileusername h4 {
   margin: 0px;
+  font-weight: 500;
 }
 .profile {
   display: flex;
@@ -53,7 +70,8 @@ main {
   gap: 10px;
 }
 .profilepic {
-  height: 100%;
+  width: 32px;
+  height: 32px;
   border-radius: 80px;
 }
 
