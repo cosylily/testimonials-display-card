@@ -25,21 +25,28 @@ h2 {
 }
 h3 {
   font-size: 1.2rem;
+  margin: 0px;
+  font-weight: 600;
 }
 h4 {
   font-size: 1rem;
+  margin: 0px;
+  font-weight: 500;
 }
 p {
   font-weight: 500;
   font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0px;
 }
 .left {
-  flex: 2;
+  flex: 3;
 }
 .left .upper {
   display: flex;
   justify-content: space-evenly;
   gap: 24px;
+  margin-bottom: 24px;
 }
 .left .lower {
   display: flex;
@@ -51,18 +58,15 @@ p {
 }
 .card {
   border-radius: 20px;
-  padding: 25px;
+  padding: 40px;
+  border: 1px solid black;
 }
 .profileusername {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-.profileusername h3,
-.profileusername h4 {
-  margin: 0px;
-  font-weight: 500;
-}
+
 .profile {
   display: flex;
   justify-content: flex-start;
@@ -106,5 +110,4 @@ p {
 .kira {
   background-color: white;
   color: var(--grey-500);
-  height: 100%;
 }
