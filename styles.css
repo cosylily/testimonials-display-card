@@ -37,9 +37,20 @@ main {
   border-radius: 20px;
   padding: 12px;
 }
+.profileusername {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.profileusername h3,
+.profileusername h4 {
+  margin: 0px;
+}
 .profile {
   display: flex;
   justify-content: flex-start;
+  max-height: max-content;
+  gap: 10px;
 }
 .profilepic {
   height: 100%;
