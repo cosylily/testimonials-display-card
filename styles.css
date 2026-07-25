@@ -59,7 +59,7 @@ p {
 .card {
   border-radius: 20px;
   padding: 30px;
-  border: 1px solid black;
+  box-shadow: 20px 30px 20px var(--grey-100);
 }
 .profileusername {
   display: flex;
