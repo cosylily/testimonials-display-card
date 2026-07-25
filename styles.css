@@ -35,8 +35,8 @@ h4 {
 }
 p {
   font-weight: 500;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
   margin: 0px;
 }
 .left {
@@ -58,7 +58,7 @@ p {
 }
 .card {
   border-radius: 20px;
-  padding: 40px;
+  padding: 30px;
   border: 1px solid black;
 }
 .profileusername {
@@ -72,6 +72,13 @@ p {
   justify-content: flex-start;
   max-height: max-content;
   gap: 10px;
+  margin-bottom: 20px;
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
 }
 .profilepic {
   width: 32px;
@@ -110,4 +117,5 @@ p {
 .kira {
   background-color: white;
   color: var(--grey-500);
+  max-height: 100%;
 }
