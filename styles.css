@@ -12,6 +12,12 @@
   font-size: 13px;
   font-family: "Barlow Semi Condensed", sans-serif;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 main {
   display: flex;
   gap: 24px;
